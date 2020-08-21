@@ -64,7 +64,7 @@ RUN cd $HOME/work;\
     python -m sos_notebook.install;\
     git clone -b blog_afi https://github.com/jvelazquez-reyes/t1_notebooks.git;  \
     cd t1_notebooks;\
-    git clone -b update_2.5.0 https://github.com/qMRLab/qMRLab.git;   \
+    git clone -b update_2.5.0 https://github.com/qMRLab/qMRLab.git;    \
     cd qMRLab; \
     git checkout b69168f02f0680471a0c5590114752c037c9b041; \
     cd ..; \
